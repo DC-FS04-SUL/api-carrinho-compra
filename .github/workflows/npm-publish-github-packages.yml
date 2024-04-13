@@ -6,10 +6,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install modules
-      run: yarn
-    - name: Install modules
       env:
         NODE_TEST: false
         NODE_ENV: "test"
+      run: yarn
     - name: Run tests
       run: yarn test
