@@ -1,19 +1,29 @@
 {
   "development": {
-    "username": "root",
-    "password": "123456",
-    "database": "HML_CarrinhoCompra",
-    "host": "127.0.0.1",
-    "port": "3333",
-    "dialect": "mariadb"
+    "username": "postgres",
+    "password": ")F!!m%55+mb9N4Y",
+    "database": "postgres",
+    "host": "aws-0-us-west-1.pooler.supabase.com",
+    "port": "5432",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
-    "username": "root",
-    "password": "123456",
-    "database": "TesteCarrinhoCompra",
-    "host": "127.0.0.1",
-    "port": "3333",
-    "dialect": "mariadb"
+    "username": "postgres",
+    "password": ")F!!m%55+mb9N4Y",
+    "database": "postgres",
+    "host": "aws-0-us-west-1.pooler.supabase.com",
+    "port": "5432",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
   },
   "production": {
     "username": "root",
